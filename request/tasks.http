@@ -1,0 +1,29 @@
+### Create task
+
+POST http://localhost:3030/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Hola Lauty Puta",
+    "description": "Chupame la polla gordo meon ! !"
+}
+### Put Tasks
+
+PUT  http://localhost:3030/api/tasks/1
+Content-Type: application/json
+
+{
+    "title": "Hola Soy un Update",
+    "description": "Hola soy la descripcion del Update !"
+}
+
+### Get List Tasks
+GET  http://localhost:3030/api/tasks/
+
+
+### Get Tasks by ID
+GET  http://localhost:3030/api/tasks/1
+
+
+### Remove Tasks by ID
+DELETE http://localhost:3030/api/tasks/3
